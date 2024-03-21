@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+
+<body>
+    <header style="background-color: orange;">
+        <div>
+            <nav>
+
+                <span><a href="ActividadPractica1.html" style="background-color: chocolate;">Home</a></span>
+                <a href="acerca.html" style="background-color: chocolate;">Acerca de...</a>
+                <a href="contacto.html" style="background-color: chocolate;">Contacto</a>
+
+                <a href="Sucursales.html" style="background-color: chocolate;">Sucursales</a>
+
+            </nav>
+        </div>
+        <h1 style="text-align: center;">Bienvenido a la Cocina de Juan!</h1>
+
+    </header>
+    <h1>Formulario de Registro</h1>
+    <form action="show_data.html" target="_blank"><!--mostrardatosform.html-->
+        <fieldset>
+
+            <legend>Datos personales </legend>
+            <label for="Nombre" >Nombre</label>
+            <input type="text" name="Nombre" placeholder="Nombre"><br><br>
+            <label for="Apellido">Apellido</label>
+            <input name="Apellido" type="text" placeholder="Apellido"><br><br>
+            <label for="Correo">E-Mail</label>
+            <input type="email" name="Correo" placeholder="E-Mail"><br><br>
+
+            <label for="Pass">Password</label>
+            <input type="password" name="Pass" placeholder="Ingrese Password">
+
+        </fieldset>
+        <p>Género (Radio)
+            <input type="radio" name="gender" value="hombre" checked>Hombre
+            <input type="radio" name="gender" value="Mujer">Mujer
+            <input type="radio" name="gender" value="Otro"> Otro
+        </p>
+        <fieldset>
+            <legend>Conocimientos Academicos</legend>
+        <label for="estudios">Estudios: (Select)</label>
+        <select id="estudios" name="estudios">
+            <option value="primaria">Primaria</option>
+            <option value="secundaria">Secundaria</option>
+            <option value="terciario">Terciario</option>
+            <option value="universitario">Universitario</option>
+        </select>
+        <br>
+        <p> Conocimientos previos: (checkbox)
+            <input type="checkbox" name="conocimientos" value="HTML"> HTML
+            <input type="checkbox" name="conocimientos" value="CSS"> CSS
+            <input type="checkbox" name="conocimientos" value="BOOTSTRAP"> Bootstrap
+            <input type="checkbox" name="conocimientos" value="Javascript"> Javascript
+            <input type="checkbox" name="conocimientos" value="Typescript"> Typescript
+            <input type="checkbox" name="conocimientos" value="Angular"> Angular
+            <input type="checkbox" name="conocimientos" value="BaseDeDatos"> Base de Datos
+            <input type="checkbox" name="conocimientos" value="Python"> Python
+            <input type="checkbox" name="conocimientos" value="Django"> Django
+        </p>
+
+        <label for="comentarios">Comentarios:</label> <br>
+        <textarea name="comentarios" rows="10" cols="30"></textarea>
+        <br>
+    </fieldset>
+
+        </fieldset>
+        <fieldset>
+            <legend>Opciones de Recetas</legend>
+            <label for="turno">Receta:</label>
+            <select name="turno" id="">
+                <option value="Vegana">Veganas</option>
+                <option value="Organicas">Organicas</option>
+                <option value="Tradicionales" selected="True">Tradicionales         </option>
+                <option value="Pastas">Pastas</option>
+                <option value="Carnes">Carnes </option>
+
+            </select>
+
+
+        </fieldset>
+        <fieldset>
+            <legend>Completar Registro:</legend><br><br>
+            <input type="submit" value="Enviar">
+            <!-- envia lo sdatros del formulario a algun lado 
+             -->
+
+            <input type="reset" value="Borrar datos" name="" id="">
+
+
+        </fieldset>
+
+    </form>
+
+
+    <footer style="background-color: orange;text-align: center;">
+
+        <a href="https://www.facebook.com" target="_blank"><img src="../actp1/imagen/face.ico" alt="Facebook" width="25"
+                height="25"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="../actp1/imagen/insta.ico" alt="Instagram"
+                width="25" height="25"></a>
+        <a href="mailto:matula77yahoo.com.ar " target="_blank"><img src="../actp1/imagen/email.ico" alt="Correo"
+                width="25" height="25"></a>
+        <a href="https://twitter.com/?lang=es" target="_blank"><img src="../actp1/imagen/twiter.ico" alt="" width="25"
+                height="25"></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="../actp1/imagen/youtube.png" alt="" width="25"
+                height="25"></a>
+        <p>Derechos Reservados 2024</p>
+
+    </footer>
+</body>
+
+</html>

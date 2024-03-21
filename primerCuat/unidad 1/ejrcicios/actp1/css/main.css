@@ -1,0 +1,16 @@
+h1 {
+
+    text-align: center;
+
+}
+header{
+    background-color: black;
+    color: whitesmoke;
+}
+.nav {
+    background-color: grey;
+    color: whitesmoke;
+    padding: 20px;
+    font-size: large;
+    text-decoration: none;
+}

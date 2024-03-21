@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Feedback Sent</title>
+</head>
+<body>
+  <header style="background-color: orange;">
+    <div>
+        <nav>
+
+            <span><a href="ActividadPractica1.html" style="background-color: chocolate;">Home</a></span>
+            <a href="acerca.html" style="background-color: chocolate;">Acerca de...</a>
+            <a href="contacto.html" style="background-color: chocolate;">Contacto</a>
+            <a href="Registrese.html" style="background-color: chocolate;">Registrese</a>
+            <a href="Sucursales.html" style="background-color: chocolate;">Sucursales</a>
+
+        </nav>
+    </div>
+    <h1 style="text-align: center;">Bienvenido a la Cocina de Juan!</h1>
+
+</header>
+
+
+<p align=center>&nbsp;</p>
+<h1 align=center><font size="+1">The following information has been sent as your
+  feedback:</font></h1>
+
+<table border="1" align=center width="226">
+  <tr>
+    <th align="center">Form Field</th>
+    <th align="center">Field Value</th>
+  </tr>
+
+<script language="javascript">
+var args = location.search.substr(1).split('&');
+for (var i = 0; i < args.length; ++i) {
+  var parts = args[i].split('=');
+  if (parts != null) {
+    var field = parts[0];
+    var value = parts[1];
+    if (value == null) {
+      value = "null"
+    }
+    else {
+      value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+    }
+
+    document.writeln('<tr><td align="center">' + field + '</td>');
+    document.writeln('<td align="center">' + value + '</td></tr>');
+  }
+}
+</script>
+
+<noscript>
+<tr><td>
+<p>You need to turn on Javascript in your browser.</p>
+
+<p>In Microsoft Internet Explorer 4 or greater:</p>
+<ul>
+<li>From the "Tools" menu (in IE 4, it's the "View" menu), select "Internet Options".</li>
+<li>Click on the "Security" tab.</li>
+<li>Click on the "Custom Level" button. (In IE 4, select "Custom"
+and then click on "Settings...".)</li>
+<li>Under "Active scripting" make sure "Enable" is selected.</li>
+</ul>
+
+<p>In Netscape version 4 or greater:</p>
+<ul>
+<li>From the <b>Edit</b> menu, select <b>Preferences</b>.</li>
+<li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
+<li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
+<li>Click the <b>OK</b> button.</li>
+</ul>
+
+</td></tr>
+</noscript>
+
+</table>
+<footer style="background-color: orange;text-align: center;">
+
+  <a href="https://www.facebook.com" target="_blank"><img src="../actp1/imagen/face.ico" alt="Facebook" width="25"
+          height="25"></a>
+  <a href="https://www.instagram.com" target="_blank"><img src="../actp1/imagen/insta.ico" alt="Instagram"
+          width="25" height="25"></a>
+  <a href="mailto:matula77yahoo.com.ar " target="_blank"><img src="../actp1/imagen/email.ico" alt="Correo"
+          width="25" height="25"></a>
+  <a href="https://twitter.com/?lang=es" target="_blank"><img src="../actp1/imagen/twiter.ico" alt="" width="25"
+          height="25"></a>
+  <a href="https://www.youtube.com/" target="_blank"><img src="../actp1/imagen/youtube.png" alt="" width="25"
+          height="25"></a>
+  <p>Derechos Reservados 2024</p>
+
+</footer>
+
+</body>
+</html>
