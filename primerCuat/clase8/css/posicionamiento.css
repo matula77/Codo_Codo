@@ -1,0 +1,53 @@
+/* *{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 4.5rem;
+
+}
+/*modificar posicion */
+/*article{
+    border: px solid black;
+    border-radius: px;
+    margin: 1%;
+    padding: 1%;
+    
+}
+article{
+    max-width: 50%;
+
+}
+section {
+    display: flex;
+
+} */
+article {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1%;
+}
+
+/* Modificar posición */
+
+article {
+    max-width: 50%;
+}
+
+section {
+    display: flex;
+}
+
+.fa-brands {
+    margin: 1%;
+    font-size: 4rem;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    z-index: 20;
+}

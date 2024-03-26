@@ -1,19 +1,33 @@
-h1, h2 {
+* {
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+h1,
+h2 {
 
     text-align: center;
 
 }
-.tarjetas{
+
+.tarjetas {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin: 5px;
-    
+
 }
-header{
+
+header {
     background-color: black;
     color: whitesmoke;
+    width: 100%;
+    padding: 10px;
+
 }
+
+
 .nav {
     background-color: grey;
     color: whitesmoke;
@@ -21,14 +35,55 @@ header{
     text-decoration: none;
     border-radius: 5px;
     margin: 5px;
+    left: 0;
 
 
 
 }
-footer{
+
+footer {
     background-color: BLACK;
     color: whitesmoke;
     text-align: center;
-    margin-top: 10PX;
+    width: 100%;
+    /* position: fixed;posicion fija no se mueve  */
+    /* position: fixed; */
+    margin-top: 0PX;
+    padding: 20px;
+    bottom: 5px;
+    height: 15px;
 
+
+
+}
+
+img {
+    width: 150px;
+    height: 100px;
+
+}
+
+footer img {
+    margin: 0px 6px;
+    
+
+    width: 20px;
+    height: 20px;
+
+}
+
+footer img:hover {
+    /* background-color: gray; */
+    scale: 2.0;
+
+}
+input [type=submit]
+{
+    width: 100%;
+
+}
+input [type=submit]:hover
+{
+background-color: greenyellow;
+scale: 2.0;
 }
