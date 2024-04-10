@@ -1,7 +1,7 @@
 * {
-    /* padding: 0;
+    /* padding: 0; */
 
-    margin: 0; */
+    /* margin: 0; */
     box-sizing: border-box;
 
 
@@ -21,6 +21,7 @@ footer {
     border: 3px solid red;
     min-width: 400 px;
     min-height: 200 px;
+    height: auto;
 }
 
 body {
@@ -31,7 +32,7 @@ body {
 
 main>div {
     border: 2px solid blue;
-    min-height: 100px;
+    min-width: 180px;
     margin: 0.5rem;
     height: auto;
     float: left;
@@ -41,11 +42,12 @@ main>div {
 
 main>aside {
     border: 2px solid rgb(226, 205, 14);
-    min-height: 100px;
+    min-height: 180px;
     margin: 0.5rem;
+    min-width: 25%;
     height: auto;
-    float: left;
-    width: 65%;
+    float: right;
+    width: auto;
 
 }
 
@@ -61,4 +63,22 @@ main>aside {
     margin: 0.5rem;
     min-height: 20px;
 
+}
+.header-logo>img{
+    float: left;
+    border: 1px doted blue;
+    height: auto;
+}
+.header-menubar{
+    float: right;
+    height: auto;
+    width: auto;
+    border: 1px dashed black;
+}
+#img-ppal{
+    width: 100%;
+
+}
+.header>div{
+    float: right;
 }
